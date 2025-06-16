@@ -22,6 +22,10 @@ export default defineConfig({
 
   cleanUrls: true,
 
+  sitemap: {
+    hostname: 'https://www.satslice.org',
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
